@@ -339,6 +339,29 @@ section {
   height: 80%;
 }
 
+/* Research section */
+.research-text {
+  font-size: 1.2rem;
+  color: rgb(85, 85, 85);
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  /* flex: 1; */
+  /* justify-content: space-between; */
+  margin-top: 10px;
+  margin-bottom: 3rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  text-align: center;
+  gap: .75rem;
+}
+
+.research-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
