@@ -362,6 +362,21 @@ section {
   justify-content: space-between;
 }
 
+.research-papers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.research-item {
+  background-color: lightblue;
+  padding-bottom: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  align-items: center;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -564,3 +579,18 @@ footer p {
   font-size: 1.15rem;
 }
 
+/* research section */
+
+.research-artcile-container {
+  /* background-color: lightblue; */
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  flex: 1;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  justify-content: space-between;
+}
